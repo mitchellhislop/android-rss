@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/114/trunk/src/org/devtcg/rssreader/activity
+END
+PostView.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/112/trunk/src/org/devtcg/rssreader/activity/PostView.java
+END
+PostList.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/112/trunk/src/org/devtcg/rssreader/activity/PostList.java
+END
+ChannelAdd.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/112/trunk/src/org/devtcg/rssreader/activity/ChannelAdd.java
+END
+ChannelList.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/114/trunk/src/org/devtcg/rssreader/activity/ChannelList.java
+END
+ChannelEdit.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/112/trunk/src/org/devtcg/rssreader/activity/ChannelEdit.java
+END

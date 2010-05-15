@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # $Id: channel_add.xml 112 2008-02-14 00:34:50Z jasta00 $
+ #
+ # Copyright (C) 2007 Josh Guilfoyle <jasta@devtcg.org>
+ #
+ # This program is free software; you can redistribute it and/or modify it
+ # under the terms of the GNU General Public License as published by the
+ # Free Software Foundation; either version 2, or (at your option) any
+ # later version.
+ #
+ # This program is distributed in the hope that it will be useful, but
+ # WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ # General Public License for more details.
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip">
+
+	<TextView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Enter RSS URL:"
+	    />
+
+	<EditText android:id="@+id/url"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="http://"
+		android:singleLine="true"
+		/>
+
+<!--		
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Enter feed name:"
+		/>
+		
+	<EditText android:id="@+id/name"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:singleLine="true"
+		/>
+		
+	<CheckBox android:id="@+id/download_name"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Determine name from feed"
+		/>
+		
+	<CheckBox android:id="@+id/download_icon"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Attempt to download feed icon"
+		/>
+  -->
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:paddingTop="8dip"
+		android:gravity="center_horizontal">
+		
+		<Button android:id="@+id/add"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Add"
+			/>
+	
+	</LinearLayout>
+	
+</LinearLayout>
+		

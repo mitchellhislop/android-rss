@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/114/trunk/res/layout
+END
+channel_add.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/112/trunk/res/layout/channel_add.xml
+END
+post_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/112/trunk/res/layout/post_list.xml
+END
+channel_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/114/trunk/res/layout/channel_list_item.xml
+END
+channel_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/114/trunk/res/layout/channel_list.xml
+END
+channel_edit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/112/trunk/res/layout/channel_edit.xml
+END
+post_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/112/trunk/res/layout/post_view.xml
+END

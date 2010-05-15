@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/109/trunk/src/org/devtcg/rssreader/util
+END
+DownloadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/103/trunk/src/org/devtcg/rssreader/util/DownloadManager.java
+END
+KeyUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/100/trunk/src/org/devtcg/rssreader/util/KeyUtils.java
+END
+DateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/109/trunk/src/org/devtcg/rssreader/util/DateUtils.java
+END

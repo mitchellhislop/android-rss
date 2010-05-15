@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # $Id$
+ #
+ # Copyright (C) 2007 Josh Guilfoyle <jasta@devtcg.org>
+ #
+ # This program is free software; you can redistribute it and/or modify it
+ # under the terms of the GNU General Public License as published by the
+ # Free Software Foundation; either version 2, or (at your option) any
+ # later version.
+ #
+ # This program is distributed in the hope that it will be useful, but
+ # WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ # General Public License for more details.
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip">
+
+	<TextView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Feed URL:"
+	    />
+
+	<EditText android:id="@+id/channelEditURL"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:singleLine="true"
+		/>
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Feed name:"
+		/>
+
+	<EditText android:id="@+id/channelEditName"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:singleLine="true"
+		/>
+
+<!--
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Feed icon:"
+		/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<ImageView android:id="@+id/channelEditIcon"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+			android:padding="3dip"
+			/>
+
+		<Button android:id="@+id/channelEditIconDownload"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:text="Refresh"
+			/>
+		
+	</LinearLayout>
+  -->
+
+<!--		
+	<CheckBox android:id="@+id/download_name"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Determine name from feed"
+		/>
+		
+	<CheckBox android:id="@+id/download_icon"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Attempt to download feed icon"
+		/>
+  -->
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:paddingTop="8dip"
+		android:gravity="center_horizontal">
+
+		<Button android:id="@+id/channelEditSave"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Save"
+			/>
+	
+	</LinearLayout>
+	
+</LinearLayout>
